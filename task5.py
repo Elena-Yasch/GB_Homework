@@ -15,5 +15,7 @@ if revenue > costs:
     employee_num = int(input('Enter the number of employees in the company:'))
     profit_rate = profit / employee_num
     print(f'The company`s profit per employee = {profit_rate:.2f}')
+elif revenue == costs:
+    print('Not bad. You have no revenue and no losses.')
 else:
     print('We are sorry, but your company is operating at a loss!')
